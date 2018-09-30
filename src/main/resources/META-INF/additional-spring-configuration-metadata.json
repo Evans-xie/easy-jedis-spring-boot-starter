@@ -1,0 +1,48 @@
+{
+  "properties": [
+    {
+      "name": "easy.jedis.password",
+      "defaultValue": ""
+    },
+    {
+      "name": "easy.jedis.database",
+      "defaultValue":0
+    },
+    {
+      "name": "easy.jedis.maxIdle",
+      "defaultValue": 16
+    },
+    {
+      "name": "easy.jedis.maxTotal",
+      "defaultValue": 100
+    },
+    {
+      "name": "easy.jedis.maxWaitMillis",
+      "defaultValue": 1000
+    },
+    {
+      "name": "easy.jedis.minEvictableIdleTimeMillis",
+      "defaultValue": 1800000
+    },
+    {
+      "name": "easy.jedis.numTestsPerEvictionRun",
+      "defaultValue": 100
+    },
+    {
+      "name": "easy.jedis.timeBetweenEvictionRunsMillis",
+      "defaultValue": 30000
+    },
+    {
+      "name": "easy.jedis.testOnBorrow",
+      "defaultValue":true
+    },
+    {
+      "name": "easy.jedis.testWhileIdle",
+      "defaultValue":true
+    },
+    {
+      "name": "easy.jedis.timeout",
+      "defaultValue": 2000
+    }
+  ]
+}
